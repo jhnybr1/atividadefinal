@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciências Humanas - Meu Portfólio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css">
+</head>
+<body>
+    <header>
+        <h1>Ciências Humanas</h1>
+        <p>Compreendendo o ser humano e as dinâmicas sociais ao longo da história.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="introducao.html">Introdução</a>
+        <a href="habilidades.html">Habilidades</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="contato.html">Contato</a>
+        <a href="ciencias_da_natureza.html">Ciências da Natureza</a>
+        <a href="matematica.html">Matemática</a>
+        <a href="ciencias_humanas.html">Ciências Humanas</a>
+        <a href="ciberseguranca.html">Cibersegurança</a>
+        <a href="blockchain.html">Blockchain</a>
+        <a href="automacao_robotica.html">Automação e Robótica</a>
+        <a href="edge_computing.html">Edge Computing</a>
+    </nav>
+
+    <div class="container ciencias-humanas">
+        <section class="conteudo">
+            <h2>Sobre Ciências Humanas</h2>
+            <p>Em Ciências Humanas trouxe um conteúdo que fiz sobre as Guerras Hibrídas, trouxe imagens do mapa mental que fiz sobre o tema que fiquei bem satisfeito com o resultado, e é um assunto que me interesso bastante.</p>
+        </section>
+
+        <section class="carrossel">
+            <h2>Galeria de Imagens</h2>
+            <div class="slick-carousel">
+                <div>
+                    <img src="img/ciencias_humanas1.jpg" alt="Imagem relacionada à história">
+                </div>
+                <div>
+                    <img src="img/ciencias_humanas2.jpg" alt="Imagem de interação social">
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script>
+        $(document).ready(function(){
+            $('.slick-carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true
+            });
+        });
+    </script>
+</body>
+</html>
